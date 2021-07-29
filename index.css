@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    background-image: url("station.jpg") ;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+}
+.incr-btn{
+    background-color: darkred;
+    color: wheat;
+    border: none;                                 
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    font-size: x-large;
+
+}
+.incr-btn:hover{
+    background-color: rgb(172, 22, 34);
+}
+.incr-btn:active{
+    box-shadow: 0 3px rgb(110, 108, 109);
+    transform: translateX(5px)
+}
+.save-btn{
+    background-color: green;
+    position: relative;
+    align-content: center;
+    color: wheat;
+    text-align: center;
+    margin-top:15px ;
+    border: none;                                 
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    font-size: x-large;
+}
+.save-btn:hover{
+    background-color: rgb(8, 71, 8);
+}
+#save-el{
+    font-size: 50px;
+}
